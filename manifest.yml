@@ -4,7 +4,7 @@ applications:
   instances: 1
   buildpacks:
   - java_buildpack
-  path: build/libs/paas-ta-portal-storage-api.jar
+  path: build/libs/ap-portal-storage-api.jar
   env:
     server_port: 8080
 
@@ -14,7 +14,7 @@ applications:
     spring_application_name: PortalStorageApi
 
     spring_security_username: admin
-    spring_security_password: openpaasta
+    spring_security_password: openkpaas
 
     eureka_client_serviceUrl_defaultZone: http://portal-registration.<APP_DOMAIN>/eureka/
     eureka_instance_hostname: ${vcap.application.uris[0]}

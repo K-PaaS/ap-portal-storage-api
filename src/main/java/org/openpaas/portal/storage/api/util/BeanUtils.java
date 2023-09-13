@@ -1,4 +1,4 @@
-package org.openpaas.paasta.portal.storage.api.util;
+package org.openpaas.portal.storage.api.util;
 
 import org.springframework.context.ApplicationContext;
 

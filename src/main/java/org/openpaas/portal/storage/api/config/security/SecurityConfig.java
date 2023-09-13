@@ -1,6 +1,6 @@
-package org.openpaas.paasta.portal.storage.api.config.security;
+package org.openpaas.portal.storage.api.config.security;
 
-import org.openpaas.paasta.portal.storage.api.config.SwiftOSConstants.SwiftOSControllerURI;
+import org.openpaas.portal.storage.api.config.SwiftOSConstants.SwiftOSControllerURI;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

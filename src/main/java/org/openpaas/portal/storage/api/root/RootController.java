@@ -1,4 +1,4 @@
-package org.openpaas.paasta.portal.storage.api.root;
+package org.openpaas.portal.storage.api.root;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Controller;
@@ -50,7 +50,7 @@ public class RootController {
 
         map.put("objectStorage", objectStorage);
 
-        map.put("name", "PaaS-TA Storage API");
+        map.put("name", "AP Storage API");
         return map;
     }
 

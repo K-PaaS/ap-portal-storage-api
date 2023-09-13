@@ -1,12 +1,12 @@
-package org.openpaas.paasta.portal.storage.api.config;
+package org.openpaas.portal.storage.api.config;
 
 import org.javaswift.joss.client.factory.AccountConfig;
 import org.javaswift.joss.client.factory.AccountFactory;
 import org.javaswift.joss.client.factory.AuthenticationMethod;
 import org.javaswift.joss.model.Account;
 import org.javaswift.joss.model.Container;
-import org.openpaas.paasta.portal.storage.api.config.SwiftOSConstants.SwiftOSEnvironmentKeys;
-import org.openpaas.paasta.portal.storage.api.util.BeanUtils;
+import org.openpaas.portal.storage.api.config.SwiftOSConstants.SwiftOSEnvironmentKeys;
+import org.openpaas.portal.storage.api.util.BeanUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Bean;

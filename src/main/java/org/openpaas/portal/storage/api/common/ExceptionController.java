@@ -1,4 +1,4 @@
-package org.openpaas.paasta.portal.storage.api.common;
+package org.openpaas.portal.storage.api.common;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
@@ -11,7 +11,6 @@ import java.util.concurrent.LinkedBlockingDeque;
 import javax.annotation.PostConstruct;
 
 import org.apache.catalina.servlet4preview.http.HttpServletRequest;
-import org.openpaas.paasta.portal.storage.api.common.ExceptionService.Level;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
@@ -32,7 +31,7 @@ import org.springframework.web.bind.annotation.RestController;
 @ControllerAdvice
 @RestController
 public class ExceptionController {
-    @Value( "${paasta.portal.storage.api.common.countoflastestexception:10}" )
+    @Value( "${ap.portal.storage.api.common.countoflastestexception:10}" )
     private int countOfLastestExceptions;
     
     private static final String EXCEPTION_MESSAGE_HEADER = "Occured unexpected exception...";
@@ -58,7 +57,7 @@ public class ExceptionController {
         exceptionService.log( EXCEPTION_MESSAGE_HEADER, ex );
 
         // debugging info
-        exceptionService.log( Level.DEBUG, "remote host: {}({}) / remote port: {}", 
+        exceptionService.log( ExceptionService.Level.DEBUG, "remote host: {}({}) / remote port: {}",
             request.getRemoteHost(), request.getRemoteAddr(), request.getRemotePort());
         
         final StringBuilder sb = new StringBuilder(EXCEPTION_MESSAGE_HEADER);

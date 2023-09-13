@@ -1,10 +1,10 @@
-package org.openpaas.paasta.portal.storage.api.store.swift;
+package org.openpaas.portal.storage.api.store.swift;
 
 import org.javaswift.joss.model.StoredObject;
-import org.openpaas.paasta.portal.storage.api.config.SwiftOSConstants.ResultStatus;
-import org.openpaas.paasta.portal.storage.api.config.SwiftOSConstants.SwiftOSCommonParameter;
-import org.openpaas.paasta.portal.storage.api.store.ObjectStorageFileInfo;
-import org.openpaas.paasta.portal.storage.api.util.FilenameUtils;
+import org.openpaas.portal.storage.api.config.SwiftOSConstants.ResultStatus;
+import org.openpaas.portal.storage.api.config.SwiftOSConstants.SwiftOSCommonParameter;
+import org.openpaas.portal.storage.api.store.ObjectStorageFileInfo;
+import org.openpaas.portal.storage.api.util.FilenameUtils;
 import org.springframework.http.MediaType;
 
 public class SwiftOSFileInfo extends ObjectStorageFileInfo<SwiftOSFileInfo> {

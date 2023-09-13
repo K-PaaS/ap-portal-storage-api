@@ -1,4 +1,4 @@
-package org.openpaas.paasta.portal.storage.api.store;
+package org.openpaas.portal.storage.api.store;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;

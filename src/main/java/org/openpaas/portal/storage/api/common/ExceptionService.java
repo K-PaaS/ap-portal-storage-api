@@ -1,4 +1,4 @@
-package org.openpaas.paasta.portal.storage.api.common;
+package org.openpaas.portal.storage.api.common;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

@@ -1,12 +1,12 @@
-package org.openpaas.paasta.portal.storage.api;
+package org.openpaas.portal.storage.api;
 
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * PaaS-TA Storage API application. 
- * (org.openpaas.paasta.portal.storage.api)
+ * AP Storage API application.
+ * (org.openpaas.portal.storage.api)
  *
  * @version 
  * @since 2018. 4. 2.

@@ -13,8 +13,8 @@ applications:
     
     spring_application_name: PortalStorageApi
 
-    spring_security_username: admin
-    spring_security_password: openkpaas
+    spring_security_username: <SPRING_SECURITY_USERNAME>
+    spring_security_password: <SPRING_SECURITY_PASSWORD>
 
     eureka_client_serviceUrl_defaultZone: http://portal-registration.<APP_DOMAIN>/eureka/
     eureka_instance_hostname: ${vcap.application.uris[0]}

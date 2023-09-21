@@ -3,8 +3,8 @@ spring:
   application:
     name: PortalStorageApi  # Service registers under this name
   security:
-    username: admin
-    password: openkpaas
+    username: <SPRING_SECURITY_USERNAME>
+    password: <SPRING_SECURITY_PASSWORD>
   http:    # spring boot 1.x
     multipart:
       enabled: true

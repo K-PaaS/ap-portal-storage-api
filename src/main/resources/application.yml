@@ -3,8 +3,8 @@ spring:
   application:
     name: PortalStorageApi  # Service registers under this name
   security:
-    username: admin
-    password: openpaasta
+    username: <SPRING_SECURITY_USERNAME>
+    password: <SPRING_SECURITY_PASSWORD>
   http:    # spring boot 1.x
     multipart:
       enabled: true
@@ -51,7 +51,7 @@ objectStorage:
         size:
           mb: 0           # user app upload size ( 0 : unlimited )
 
-paasta:
+ap:
   portal:
     storage:
       api:

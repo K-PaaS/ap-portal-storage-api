@@ -1,4 +1,4 @@
-package org.openpaas.paasta.portal.storage.api.store.swift;
+package org.openpaas.portal.storage.api.store.swift;
 
 import static org.junit.Assert.assertNotNull;
 
@@ -17,10 +17,10 @@ import javax.servlet.http.HttpServletResponse;
 import javax.ws.rs.Consumes;
 
 import org.javaswift.joss.model.StoredObject;
-import org.openpaas.paasta.portal.storage.api.config.SwiftOSConstants.ResultStatus;
-import org.openpaas.paasta.portal.storage.api.config.SwiftOSConstants.SwiftOSCommonParameter;
-import org.openpaas.paasta.portal.storage.api.config.SwiftOSConstants.SwiftOSControllerURI;
-import org.openpaas.paasta.portal.storage.api.util.ObjectMapperUtils;
+import org.openpaas.portal.storage.api.config.SwiftOSConstants.ResultStatus;
+import org.openpaas.portal.storage.api.config.SwiftOSConstants.SwiftOSCommonParameter;
+import org.openpaas.portal.storage.api.config.SwiftOSConstants.SwiftOSControllerURI;
+import org.openpaas.portal.storage.api.util.ObjectMapperUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
-package org.openpaas.paasta.portal.storage.api.store;
+package org.openpaas.portal.storage.api.store;
 
-import org.openpaas.paasta.portal.storage.api.config.SwiftOSConstants.ResultStatus;
+import org.openpaas.portal.storage.api.config.SwiftOSConstants.ResultStatus;
 
 /**
  * 

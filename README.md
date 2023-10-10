@@ -1,4 +1,4 @@
-# PAAS-TA-PORTAL-STORAGE-API
+# ap-portal-storage-api
 
 ## Storage Api Service
 Storage Api Service? Object Storage에 파일 업로드 및 다운로드를 제공하는 기능을 제공하기 위해

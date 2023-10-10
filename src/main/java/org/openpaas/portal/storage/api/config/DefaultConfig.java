@@ -1,4 +1,4 @@
-package org.openpaas.paasta.portal.storage.api.config;
+package org.openpaas.portal.storage.api.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

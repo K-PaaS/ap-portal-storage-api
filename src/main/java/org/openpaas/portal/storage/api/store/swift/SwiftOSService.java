@@ -1,4 +1,4 @@
-package org.openpaas.paasta.portal.storage.api.store.swift;
+package org.openpaas.portal.storage.api.store.swift;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -10,9 +10,9 @@ import java.util.List;
 
 import org.javaswift.joss.model.Container;
 import org.javaswift.joss.model.StoredObject;
-import org.openpaas.paasta.portal.storage.api.config.SwiftOSConstants.SwiftOSCommonParameter;
-import org.openpaas.paasta.portal.storage.api.store.ObjectStorageService;
-import org.openpaas.paasta.portal.storage.api.util.FilenameUtils;
+import org.openpaas.portal.storage.api.config.SwiftOSConstants.SwiftOSCommonParameter;
+import org.openpaas.portal.storage.api.store.ObjectStorageService;
+import org.openpaas.portal.storage.api.util.FilenameUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

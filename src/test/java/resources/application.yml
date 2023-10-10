@@ -21,9 +21,9 @@ spring:
 
 ##INFRA_ADMIN Settings
 project:
-  name: paasta-storage-api
-  artifactId: paasta-storage-api
-  description: paasta file management service
+  name: ap-storage-api
+  artifactId: ap-storage-api
+  description: ap file management service
 info:
   app:
     encoding: Encoding - UTF-8
@@ -47,8 +47,8 @@ server:
 
 
 objectStorage:
-  tenantName: paasta-portal
-  username: paasta-portal # YOUR OBJECT STORAGE ACCOUT
+  tenantName: ap-portal
+  username: ap-portal # YOUR OBJECT STORAGE ACCOUT
   password: 'PASSWORD' # YOUR OBJECT STORAGE PASSWORD
   authUrl: http://XXX.XXX.XXX.XXX:5000/v2.0 # YOUR OBJECT STORAGE API URL
   container: portal-container
